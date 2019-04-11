@@ -2,6 +2,73 @@
 /* Phe*/
 /* how-it-word*/
 /* Haem*/
+.devlok .product-wrapper {
+  padding: 15px;
+  text-align: center; }
+  .devlok .product-wrapper .tooltip-right h5 {
+    color: #70dde5; }
+  .devlok .product-wrapper .tooltip-right .clearfix {
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #fff;
+    border-top: 15px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: -1.9rem;
+    top: 39%;
+    width: 0;
+    z-index: 2; }
+  .devlok .product-wrapper .tooltip-right .clearfixx {
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #fff;
+    border-top: 15px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    left: -1.85rem;
+    top: 45%;
+    width: 0;
+    z-index: 2; }
+  .devlok .product-wrapper .tooltip-right .pull-left {
+    float: left; }
+  .devlok .product-wrapper .tooltip-right .pricing-info .pull-left {
+    margin-left: 0; }
+    .devlok .product-wrapper .tooltip-right .pricing-info .pull-left span {
+      color: red;
+      font-weight: bold;
+      padding-top: 5px; }
+.devlok .overlay {
+  color: white;
+  width: 20rem;
+  background: #00000061;
+  position: absolute;
+  top: 11rem;
+  left: 11rem; }
+  .devlok .overlay h5 {
+    color: #70dde5; }
+  .devlok .overlay .pull-left {
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 15px; }
+    .devlok .overlay .pull-left span.a {
+      color: red;
+      font-weight: bold;
+      padding-top: 5px; }
+  .devlok .overlay .pull-right {
+    padding-bottom: 15px; }
+
+.top-destination .row .overlay {
+  width: 95%;
+  height: 95%;
+  background: #00000033;
+  position: absolute;
+  top: 25px; }
+  .top-destination .row .overlay .wrapper {
+    width: 50%;
+    position: absolute;
+    top: 9rem;
+    left: 7rem; }
+
 /*Recent-blog-posts*/
 /*why-choose-us*/
 /*hot-deals*/
@@ -11,6 +78,11 @@
   /* Phe*/
   /* how-it-word*/
   /* Haem*/
+  .devlok .overlay {
+    position: absolute;
+    top: 7rem;
+    left: 6rem; }
+
   /*Recent-blog-posts*/
   /*why-choose-us*/
   /*hot-deals*/
@@ -20,6 +92,27 @@
   /* Phe*/
   /* how-it-word*/
   /* Haem*/
+  .devlok .overlay {
+    position: absolute;
+    left: 2rem;
+    top: 1rem;
+    background: none;
+    color: black; }
+  .devlok .aaaa {
+    margin-left: 23rem; }
+
+  .top-destination .row .overlay {
+    width: 92%;
+    height: 92%;
+    background: #00000033;
+    position: absolute;
+    top: 25px; }
+    .top-destination .row .overlay .wrapper {
+      width: 80%;
+      position: absolute;
+      top: 2rem;
+      left: 2rem; }
+
   /*Recent-blog-posts*/
   /*why-choose-us*/
   /*hot-deals*/
@@ -29,6 +122,28 @@
   /* Phe*/
   /* how-it-word*/
   /* Haem*/
+  .devlok .overlay {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    background: none;
+    color: black; }
+  .devlok .aaaa {
+    margin-top: 20rem;
+    margin-left: 0; }
+
+  .top-destination .row .overlay {
+    width: 92%;
+    height: 92%;
+    background: #00000033;
+    position: absolute;
+    top: 25px; }
+    .top-destination .row .overlay .wrapper {
+      width: 100%;
+      position: absolute;
+      top: 0rem;
+      left: 0rem; }
+
   /*Recent-blog-posts*/
   /*why-choose-us*/
   /*hot-deals*/
@@ -38,6 +153,28 @@
   /* Phe*/
   /* how-it-word*/
   /* Haem*/
+  .devlok .overlay {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    background: none;
+    color: black; }
+  .devlok .aaaa {
+    margin-top: 20rem;
+    margin-left: 0; }
+
+  .top-destination .row .overlay {
+    width: 92%;
+    height: 92%;
+    background: #00000033;
+    position: absolute;
+    top: 25px; }
+    .top-destination .row .overlay .wrapper {
+      width: 100%;
+      position: absolute;
+      top: 0rem;
+      left: 0rem; }
+
   /*Recent-blog-posts*/
   /*why-choose-us*/
   /*hot-deals*/
@@ -47,6 +184,16 @@
   /* Phe*/
   /* how-it-word*/
   /* Haem*/
+  .devlok .overlay {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    background: none;
+    color: black; }
+  .devlok .aaaa {
+    margin-top: 20rem;
+    margin-left: 0; }
+
   /*Recent-blog-posts*/
   /*why-choose-us*/
   /*hot-deals*/

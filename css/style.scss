@@ -2,57 +2,302 @@
 /* Phe*/
 /* how-it-word*/
 /* Haem*/
-/*Recent-blog-posts*/
-/*why-choose-us*/
-/*hot-deals*/
-/*footer*/
-@media (max-width: 1024px){
-/* Header*/
-/* Phe*/
-/* how-it-word*/
-/* Haem*/
-/*Recent-blog-posts*/
-/*why-choose-us*/
-/*hot-deals*/
-/*footer*/
+.devlok {
+    .product-wrapper {
+        padding: 15px;
+        text-align: center;
+
+        .tooltip-right {
+            h5 {
+                color: #70dde5;
+            }
+
+            .clearfix {
+                border-bottom: 15px solid transparent;
+                border-left: 15px solid #fff;
+                border-top: 15px solid transparent;
+                content: "";
+                height: 0;
+                position: absolute;
+                right: -1.9rem;
+                top: 39%;
+                width: 0;
+                z-index: 2;
+            }
+
+            .clearfixx {
+                border-bottom: 15px solid transparent;
+                border-right: 15px solid #fff;
+                border-top: 15px solid transparent;
+                content: "";
+                height: 0;
+                position: absolute;
+                left: -1.85rem;
+                top: 45%;
+                width: 0;
+                z-index: 2;
+
+            }
+
+            .pull-left {
+                float: left;
+            }
+
+            .pricing-info {
+                .pull-left {
+                    margin-left: 0;
+
+                    span {
+                        color: red;
+                        font-weight: bold;
+                        padding-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .overlay {
+        color: white;
+        width: 20rem;
+        background: #00000061;
+        position: absolute;
+        top: 11rem;
+        left: 11rem;
+
+        h5 {
+            color: #70dde5;
+        }
+
+        .pull-left {
+
+            float: left;
+            padding-left: 10px;
+            padding-bottom: 15px;
+
+            span.a {
+                color: red;
+                font-weight: bold;
+                padding-top: 5px;
+            }
+        }
+
+        .pull-right {
+            padding-bottom: 15px;
+        }
+    }
 }
-@media (max-width: 768px){
-/* Header*/
-/* Phe*/
-/* how-it-word*/
-/* Haem*/
-/*Recent-blog-posts*/
-/*why-choose-us*/
-/*hot-deals*/
-/*footer*/
+
+.top-destination {
+    .row {
+
+        .overlay {
+            width: 95%;
+            height: 95%;
+            background: #00000033;
+            position: absolute;
+            top: 25px;
+
+            .wrapper {
+                width: 50%;
+                position: absolute;
+                top: 9rem;
+                left: 7rem;
+            }
+        }
+
+    }
 }
-@media (max-width: 677px){
-/* Header*/
-/* Phe*/
-/* how-it-word*/
-/* Haem*/
+
 /*Recent-blog-posts*/
 /*why-choose-us*/
 /*hot-deals*/
 /*footer*/
+@media (max-width: 1024px) {
+
+    /* Header*/
+    /* Phe*/
+    /* how-it-word*/
+    /* Haem*/
+    .devlok {
+        .overlay {
+            position: absolute;
+            top: 7rem;
+            left: 6rem;
+
+        }
+    }
+
+
+    /*Recent-blog-posts*/
+    /*why-choose-us*/
+    /*hot-deals*/
+    /*footer*/
 }
-@media (max-width: 480px){
-/* Header*/
-/* Phe*/
-/* how-it-word*/
-/* Haem*/
-/*Recent-blog-posts*/
-/*why-choose-us*/
-/*hot-deals*/
-/*footer*/
+
+@media (max-width: 768px) {
+
+    /* Header*/
+    /* Phe*/
+    /* how-it-word*/
+    /* Haem*/
+    .devlok {
+        .overlay {
+            position: absolute;
+            left: 2rem;
+            top: 1rem;
+            background: none;
+            color: black;
+
+
+        }
+
+        .aaaa {
+            margin-left: 23rem;
+        }
+    }
+	.top-destination {
+        .row {
+            .overlay {
+                width: 92%;
+                height: 92%;
+                background: #00000033;
+                position: absolute;
+                top: 25px;
+
+                .wrapper {
+                    width: 80%;
+                    position: absolute;
+                    top: 2rem;
+                    left: 2rem;
+                }
+            }
+
+        }
+    }
+    /*Recent-blog-posts*/
+    /*why-choose-us*/
+    /*hot-deals*/
+    /*footer*/
 }
-@media (max-width: 320px){
-/* Header*/
-/* Phe*/
-/* how-it-word*/
-/* Haem*/
-/*Recent-blog-posts*/
-/*why-choose-us*/
-/*hot-deals*/
-/*footer*/
+
+@media (max-width: 677px) {
+    /* Header*/
+    /* Phe*/
+    /* how-it-word*/
+    /* Haem*/
+	.devlok {
+        .overlay {
+            position: absolute;
+            left: 1rem;
+            top: 1rem;
+            background: none;
+            color: black;
+
+
+        }
+
+        .aaaa {
+            margin-top: 20rem;
+            margin-left: 0;
+        }
+    }
+	.top-destination {
+        .row {
+            .overlay {
+                width: 92%;
+                height: 92%;
+                background: #00000033;
+                position: absolute;
+                top: 25px;
+
+                .wrapper {
+                    width: 100%;
+                    position: absolute;
+                    top: 0rem;
+                    left: 0rem;
+                }
+            }
+
+        }
+    }
+    /*Recent-blog-posts*/
+    /*why-choose-us*/
+    /*hot-deals*/
+    /*footer*/
+}
+
+@media (max-width: 480px) {
+
+    /* Header*/
+    /* Phe*/
+    /* how-it-word*/
+    /* Haem*/
+    .devlok {
+        .overlay {
+            position: absolute;
+            left: 1rem;
+            top: 1rem;
+            background: none;
+            color: black;
+
+
+        }
+
+        .aaaa {
+            margin-top: 20rem;
+            margin-left: 0;
+        }
+    }
+	.top-destination {
+        .row {
+            .overlay {
+                width: 92%;
+                height: 92%;
+                background: #00000033;
+                position: absolute;
+                top: 25px;
+
+                .wrapper {
+                    width: 100%;
+                    position: absolute;
+                    top: 0rem;
+                    left: 0rem;
+                }
+            }
+
+        }
+    }
+    /*Recent-blog-posts*/
+    /*why-choose-us*/
+    /*hot-deals*/
+    /*footer*/
+}
+
+@media (max-width: 320px) {
+
+    /* Header*/
+    /* Phe*/
+    /* how-it-word*/
+    /* Haem*/
+    .devlok {
+        .overlay {
+            position: absolute;
+            left: 1rem;
+            top: 1rem;
+            background: none;
+            color: black;
+
+        }
+
+        .aaaa {
+            margin-top: 20rem;
+            margin-left: 0;
+        }
+    }
+
+    /*Recent-blog-posts*/
+    /*why-choose-us*/
+    /*hot-deals*/
+    /*footer*/
 }
