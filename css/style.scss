@@ -1,58 +1,174 @@
 /* Header*/
-/* Phe*/
-/* how-it-word*/
-/* Haem*/
-/*Recent-blog-posts*/
-/*why-choose-us*/
-/*hot-deals*/
-/*footer*/
-@media (max-width: 1024px){
-/* Header*/
-/* Phe*/
-/* how-it-word*/
-/* Haem*/
-/*Recent-blog-posts*/
-/*why-choose-us*/
-/*hot-deals*/
-/*footer*/
+
+.header-main {
+    .text {
+        p.tt {
+            float: left;
+            margin-top: 8px;
+            margin-bottom: 0;
+            font-size: 14px;
+            padding: 0;
+        }
+    }
+
+    .search {
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+        .form-control {
+            border: none;
+            outline: none;
+            border-radius: 0;
+            height: 30px;
+            width: 50px;
+        }
+
+        .fa {
+            width: 40px;
+            height: 30px;
+            font-size: 20px;
+            padding-top: 5px;
+        }
+    }
+
 }
-@media (max-width: 768px){
-/* Header*/
-/* Phe*/
-/* how-it-word*/
-/* Haem*/
-/*Recent-blog-posts*/
-/*why-choose-us*/
-/*hot-deals*/
-/*footer*/
+
+.menu img.logo {
+    width: 200px;
+    height: 70px;
 }
-@media (max-width: 677px){
-/* Header*/
+
 /* Phe*/
 /* how-it-word*/
-/* Haem*/
-/*Recent-blog-posts*/
-/*why-choose-us*/
-/*hot-deals*/
-/*footer*/
+.title {
+    padding-top: 60px;
 }
-@media (max-width: 480px){
-/* Header*/
-/* Phe*/
-/* how-it-word*/
-/* Haem*/
-/*Recent-blog-posts*/
-/*why-choose-us*/
-/*hot-deals*/
-/*footer*/
+
+.inf-item {
+    margin-top: 50px;
+
+    .inf {
+        .item {
+            width: 80px;
+            height: 80px;
+            color: white;
+            background: #f25e5e;
+            border-radius: 50%;
+            padding-top: 22px;
+        }
+
+        h3 {
+            padding-top: 30px;
+        }
+    }
 }
-@media (max-width: 320px){
-/* Header*/
-/* Phe*/
-/* how-it-word*/
+
+ul.navbar-nav li {
+    margin-left: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
 /* Haem*/
 /*Recent-blog-posts*/
 /*why-choose-us*/
 /*hot-deals*/
 /*footer*/
+@media (max-width: 1024px) {
+
+    /* Header*/
+    .menu {
+        background-color: #d8d6d6;
+    }
+
+    .none {
+        display: none;
+    }
+
+    ul.navbar-nav li {
+        font-size: 14px;
+    }
+
+    /* Phe*/
+    /* how-it-word*/
+    /* Haem*/
+    /*Recent-blog-posts*/
+    /*why-choose-us*/
+    /*hot-deals*/
+    /*footer*/
+}
+
+@media (max-width: 768px) {
+
+    /* Header*/
+    .menu {
+        button {
+            position: absolute;
+            right: 10px;
+            top: 24px;
+        }
+    }
+
+    /* Phe*/
+    /* how-it-word*/
+    .main-title {
+        .title {
+            font-size: 28px;
+        }
+
+        .text-capitalize {
+            font-size: 14px;
+        }
+    }
+
+    /* Haem*/
+    /*Recent-blog-posts*/
+    /*why-choose-us*/
+    /*hot-deals*/
+    /*footer*/
+}
+
+@media (max-width: 677px) {
+    /* Header*/
+    /* Phe*/
+    /* how-it-word*/
+    /* Haem*/
+    /*Recent-blog-posts*/
+    /*why-choose-us*/
+    /*hot-deals*/
+    /*footer*/
+}
+
+@media (max-width: 480px) {
+
+    /* Header*/
+    .menu {
+        .navbar-collapse {
+            width: 109.5%;
+            position: absolute;
+            top: 83px;
+            background: #d8d6d6bf;
+            left: -15px;
+            z-index: 2;
+        }
+    }
+
+    /* Phe*/
+    /* how-it-word*/
+    /* Haem*/
+    /*Recent-blog-posts*/
+    /*why-choose-us*/
+    /*hot-deals*/
+    /*footer*/
+}
+
+@media (max-width: 320px) {
+    /* Header*/
+    /* Phe*/
+    /* how-it-word*/
+    /* Haem*/
+    /*Recent-blog-posts*/
+    /*why-choose-us*/
+    /*hot-deals*/
+    /*footer*/
 }
