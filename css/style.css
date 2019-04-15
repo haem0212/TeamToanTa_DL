@@ -4,8 +4,232 @@
 /* Haem*/
 /*Recent-blog-posts*/
 /*why-choose-us*/
+.choose-us-row {
+  margin: 0 auto;
+  background: gray; }
+  .choose-us-row .clear-padding {
+    margin: 0 auto; }
+    .choose-us-row .clear-padding .light-section-title {
+      margin: 0 auto; }
+      .choose-us-row .clear-padding .light-section-title h2 {
+        color: #ffff;
+        font-size: 30px;
+        line-height: 60px; }
+      .choose-us-row .clear-padding .light-section-title h4 {
+        color: #ffff;
+        font-size: 18px;
+        line-height: 20px; }
+      .choose-us-row .clear-padding .light-section-title p {
+        color: #ffff;
+        font-size: 15px; }
+    .choose-us-row .clear-padding .wow {
+      margin-top: 100px;
+      background: white;
+      border-radius: 0px;
+      height: 350px;
+      margin-bottom: 50px; }
+      .choose-us-row .clear-padding .wow .choose-us-item {
+        position: relative;
+        margin: 60px 10px 20px; }
+        .choose-us-row .clear-padding .wow .choose-us-item .choose-icon {
+          width: 84.85px;
+          height: 84.85px;
+          background: #00adef;
+          transform: rotate(45deg);
+          position: absolute;
+          top: -103px;
+          left: 32%;
+          border-radius: 5px; }
+          .choose-us-row .clear-padding .wow .choose-us-item .choose-icon i {
+            color: #ffff;
+            font-size: 30px;
+            padding: 30px 0px;
+            transform: rotate(-45deg); }
+        .choose-us-row .clear-padding .wow .choose-us-item h4 {
+          color: white;
+          color: black;
+          font-size: 18px;
+          margin-top: 40px;
+          line-height: 40px; }
+        .choose-us-row .clear-padding .wow .choose-us-item p {
+          color: black;
+          font-size: 15px;
+          line-height: 20px; }
+        .choose-us-row .clear-padding .wow .choose-us-item a {
+          right: 30%;
+          color: white;
+          background: red;
+          font-size: 15px;
+          padding: 10px 30px;
+          line-height: 60px;
+          text-decoration: none; }
+
 /*hot-deals*/
 /*footer*/
+footer .sub {
+  margin-top: 40px; }
+  footer .sub form.wpcf7-form {
+    margin: 0 auto; }
+    footer .sub form.wpcf7-form .main-footer-sub {
+      margin: 0 auto;
+      height: 200px;
+      background: pink;
+      padding-top: 30px;
+      position: relative; }
+      footer .sub form.wpcf7-form .main-footer-sub .clear-padding {
+        margin: 0 auto; }
+        footer .sub form.wpcf7-form .main-footer-sub .clear-padding .form label {
+          color: black;
+          font-size: 20px;
+          line-height: 30px; }
+        footer .sub form.wpcf7-form .main-footer-sub .clear-padding .form .clear input {
+          width: 400px;
+          height: 40px;
+          border-radius: 0px;
+          border: none;
+          position: absolute;
+          left: -17%;
+          top: 16px; }
+        footer .sub form.wpcf7-form .main-footer-sub .clear-padding .form .padding input {
+          width: 120px;
+          height: 40px;
+          position: absolute;
+          top: 15px;
+          right: -86.5%;
+          font-size: 15px;
+          border-radius: 0px;
+          border: none;
+          background: red;
+          color: white; }
+        footer .sub form.wpcf7-form .main-footer-sub .clear-padding .social-media {
+          margin-top: 50px; }
+          footer .sub form.wpcf7-form .main-footer-sub .clear-padding .social-media ul li {
+            float: left;
+            background: blue;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            list-style-type: none;
+            margin-right: 4%; }
+            footer .sub form.wpcf7-form .main-footer-sub .clear-padding .social-media ul li a i {
+              color: white;
+              font-size: 20px;
+              margin: 15px 0px; }
+footer .main-footer {
+  margin-top: 40px; }
+  footer .main-footer .clear-padding {
+    margin: 0 auto;
+    background: green;
+    padding-bottom: 50px; }
+    footer .main-footer .clear-padding #text-2 h3 {
+      color: red;
+      font-size: 25px;
+      line-height: 25px;
+      padding-top: 40px; }
+    footer .main-footer .clear-padding #text-2 .textwidget p {
+      color: black;
+      font-size: 15px;
+      line-height: 25px; }
+    footer .main-footer .clear-padding #text-2 .textwidget a {
+      color: red;
+      font-size: 16px;
+      line-height: 20px;
+      border: 2px solid red;
+      text-decoration: none;
+      padding: 10px 20px; }
+    footer .main-footer .clear-padding #text-3 h4 {
+      color: red;
+      font-size: 26px;
+      line-height: 25px;
+      padding-top: 40px;
+      margin-left: 20%; }
+    footer .main-footer .clear-padding #text-3 .textwidget ul {
+      list-style-type: none; }
+      footer .main-footer .clear-padding #text-3 .textwidget ul li i {
+        color: gray;
+        font-size: 14px; }
+      footer .main-footer .clear-padding #text-3 .textwidget ul li a {
+        font-size: 15px;
+        margin-left: 9px;
+        color: black;
+        line-height: 25px; }
+    footer .main-footer .clear-padding #text-4 h4 {
+      color: red;
+      font-size: 26px;
+      line-height: 25px;
+      padding-top: 40px;
+      margin-left: 20%; }
+    footer .main-footer .clear-padding #text-4 .textwidget ul {
+      list-style-type: none; }
+      footer .main-footer .clear-padding #text-4 .textwidget ul li i {
+        color: gray;
+        font-size: 14px; }
+      footer .main-footer .clear-padding #text-4 .textwidget ul li a {
+        font-size: 15px;
+        margin-left: 9px;
+        color: black;
+        line-height: 25px; }
+    footer .main-footer .clear-padding #text-5 h4 {
+      color: red;
+      font-size: 26px;
+      line-height: 25px;
+      padding-top: 40px; }
+    footer .main-footer .clear-padding #text-5 .textwidget p {
+      color: black;
+      font-size: 15px;
+      line-height: 20px; }
+      footer .main-footer .clear-padding #text-5 .textwidget p i {
+        color: red;
+        font-size: 14px;
+        border: 2px solid black;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        padding: 9px; }
+    footer .main-footer .clear-padding #text-6 h4 {
+      color: red;
+      font-size: 30px;
+      line-height: 25px;
+      padding-top: 40px; }
+    footer .main-footer .clear-padding #text-6 .textwidget ul {
+      list-style-type: none; }
+      footer .main-footer .clear-padding #text-6 .textwidget ul li {
+        width: 60px;
+        height: 30px;
+        margin-right: 2%; }
+        footer .main-footer .clear-padding #text-6 .textwidget ul li img {
+          width: 100%;
+          height: 100%; }
+footer .main-footer-nav {
+  background: gray; }
+  footer .main-footer-nav p {
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 20px; }
+  footer .main-footer-nav .me ul {
+    list-style-type: none;
+    margin-top: 20px; }
+    footer .main-footer-nav .me ul li {
+      margin-right: 5%; }
+      footer .main-footer-nav .me ul li a {
+        color: black;
+        text-decoration: none;
+        font-size: 15px; }
+  footer .main-footer-nav .go-up {
+    position: relative;
+    top: -20px;
+    left: 85%; }
+    footer .main-footer-nav .go-up a i {
+      font-size: 25px;
+      color: white;
+      background: black;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      padding: 9px; }
+
 @media (max-width: 1024px) {
   /* Header*/
   /* Phe*/
@@ -13,8 +237,13 @@
   /* Haem*/
   /*Recent-blog-posts*/
   /*why-choose-us*/
+  .choose-us-row {
+    width: 100%; }
+
   /*hot-deals*/
-  /*footer*/ }
+  /*footer*/
+  footer {
+    width: 100%; } }
 @media (max-width: 768px) {
   /* Header*/
   /* Phe*/
@@ -22,8 +251,119 @@
   /* Haem*/
   /*Recent-blog-posts*/
   /*why-choose-us*/
+  .choose-us-row {
+    width: 100%;
+    background: pink; }
+    .choose-us-row .clear-padding .light-section-title {
+      margin: 0 auto; }
+      .choose-us-row .clear-padding .light-section-title h2 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-top: 30px; }
+      .choose-us-row .clear-padding .light-section-title h4 {
+        font-size: 16px;
+        line-height: 20px; }
+      .choose-us-row .clear-padding .light-section-title p {
+        font-size: 14px; }
+    .choose-us-row .clear-padding .wow {
+      margin-top: 50px;
+      border-radius: 0px;
+      height: 300px;
+      margin-bottom: 50px; }
+      .choose-us-row .clear-padding .wow .choose-us-item .choose-icon {
+        width: 60px;
+        height: 60px;
+        background: blue;
+        position: absolute;
+        top: -90px; }
+        .choose-us-row .clear-padding .wow .choose-us-item .choose-icon i {
+          font-size: 25px;
+          padding: 17px 0px; }
+      .choose-us-row .clear-padding .wow .choose-us-item h4 {
+        font-size: 18px;
+        margin-top: 5px;
+        line-height: 30px; }
+      .choose-us-row .clear-padding .wow .choose-us-item p {
+        font-size: 15px;
+        line-height: 20px; }
+      .choose-us-row .clear-padding .wow .choose-us-item a {
+        font-size: 15px;
+        padding: 10px 20px;
+        line-height: 40px; }
+
   /*hot-deals*/
-  /*footer*/ }
+  /*footer*/
+  footer {
+    width: 100%; }
+    footer .sub form.wpcf7-form .main-footer-sub .clear-padding .form .clear input {
+      width: 250px;
+      height: 30px;
+      font-size: 14px; }
+    footer .sub form.wpcf7-form .main-footer-sub .clear-padding .form .padding input {
+      right: -148%;
+      height: 30px;
+      font-size: 14px; }
+    footer .sub form.wpcf7-form .main-footer-sub .clear-padding .social-media {
+      margin-top: 50px; }
+      footer .sub form.wpcf7-form .main-footer-sub .clear-padding .social-media ul li {
+        width: 40px;
+        height: 40px;
+        margin-right: 1%; }
+        footer .sub form.wpcf7-form .main-footer-sub .clear-padding .social-media ul li a i {
+          margin: 10px 0px; }
+    footer .main-footer .clear-padding #text-2 h3 {
+      font-size: 20px;
+      line-height: 20px;
+      padding-top: 20px; }
+    footer .main-footer .clear-padding #text-2 .textwidget p {
+      line-height: 20px; }
+    footer .main-footer .clear-padding #text-2 .textwidget a {
+      font-size: 15px;
+      line-height: 20px;
+      padding: 10px 10px; }
+    footer .main-footer .clear-padding #text-3 h4 {
+      font-size: 20px;
+      line-height: 20px;
+      padding-top: 20px;
+      margin-left: 10%; }
+    footer .main-footer .clear-padding #text-3 .textwidget ul li i {
+      display: none; }
+    footer .main-footer .clear-padding #text-3 .textwidget ul li a {
+      font-size: 14px;
+      line-height: 20px;
+      text-decoration: none;
+      margin-left: -25%; }
+    footer .main-footer .clear-padding #text-4 h4 {
+      font-size: 20px;
+      line-height: 20px;
+      padding-top: 20px;
+      margin-left: 10%; }
+    footer .main-footer .clear-padding #text-4 .textwidget ul li i {
+      display: none; }
+    footer .main-footer .clear-padding #text-4 .textwidget ul li a {
+      font-size: 14px;
+      line-height: 20px;
+      text-decoration: none;
+      margin-left: -20%; }
+    footer .main-footer .clear-padding #text-5 h4 {
+      font-size: 20px;
+      line-height: 20px;
+      padding-top: 20px;
+      margin-left: 0%; }
+    footer .main-footer .clear-padding #text-5 .textwidget {
+      margin-left: -5%; }
+      footer .main-footer .clear-padding #text-5 .textwidget p {
+        color: black;
+        font-size: 12px;
+        line-height: 18px; }
+        footer .main-footer .clear-padding #text-5 .textwidget p i {
+          color: red;
+          font-size: 14px;
+          border: 2px solid black;
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+          padding: 5px; } }
 @media (max-width: 677px) {
   /* Header*/
   /* Phe*/
@@ -31,8 +371,75 @@
   /* Haem*/
   /*Recent-blog-posts*/
   /*why-choose-us*/
+  .choose-us-row {
+    width: 100%;
+    background: green; }
+    .choose-us-row .clear-padding .wow {
+      margin-top: 50px;
+      border-radius: 0px;
+      height: 300px;
+      margin-bottom: 50px; }
+      .choose-us-row .clear-padding .wow .choose-us-item .choose-icon {
+        width: 40px;
+        height: 40px;
+        background: blue;
+        position: absolute;
+        top: -80px;
+        left: -20%; }
+        .choose-us-row .clear-padding .wow .choose-us-item .choose-icon i {
+          font-size: 20px;
+          padding: 11px 0px; }
+      .choose-us-row .clear-padding .wow .choose-us-item h4 {
+        font-size: 18px;
+        margin-top: -15px;
+        line-height: 20px;
+        position: absolute;
+        top: -30px;
+        left: 10%;
+        text-align: right; }
+      .choose-us-row .clear-padding .wow .choose-us-item p {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: left; }
+      .choose-us-row .clear-padding .wow .choose-us-item a {
+        font-size: 14px;
+        padding: 5px 5px;
+        line-height: 40px; }
+
   /*hot-deals*/
-  /*footer*/ }
+  /*footer*/
+  footer {
+    width: 100%; }
+    footer .sub form.wpcf7-form .main-footer-sub .clear-padding .form .clear input {
+      width: 250px;
+      height: 30px;
+      font-size: 14px; }
+    footer .sub form.wpcf7-form .main-footer-sub .clear-padding .form .padding input {
+      right: -148%;
+      height: 30px;
+      font-size: 14px; }
+    footer .sub form.wpcf7-form .main-footer-sub .clear-padding .social-media {
+      margin-top: 50px; }
+      footer .sub form.wpcf7-form .main-footer-sub .clear-padding .social-media ul li {
+        width: 40px;
+        height: 40px;
+        margin-right: 1%; }
+        footer .sub form.wpcf7-form .main-footer-sub .clear-padding .social-media ul li a i {
+          margin: 10px 0px; }
+    footer .main-footer .clear-padding #text-3 h4 {
+      margin-left: 15%; }
+    footer .main-footer .clear-padding #text-3 .textwidget ul li i {
+      display: none; }
+    footer .main-footer .clear-padding #text-3 .textwidget ul li a {
+      margin-left: 0%; }
+    footer .main-footer .clear-padding #text-4 h4 {
+      margin-left: 0%; }
+    footer .main-footer .clear-padding #text-4 .textwidget ul li i {
+      display: none; }
+    footer .main-footer .clear-padding #text-4 .textwidget ul li a {
+      margin-left: -15%; }
+    footer .main-footer .clear-padding #text-5 h4 {
+      margin-left: -5%; } }
 @media (max-width: 480px) {
   /* Header*/
   /* Phe*/
@@ -40,8 +447,62 @@
   /* Haem*/
   /*Recent-blog-posts*/
   /*why-choose-us*/
+  .choose-us-row {
+    width: 100%;
+    background: red; }
+    .choose-us-row .clear-padding .wow {
+      margin-top: 5px;
+      border-radius: 5px;
+      height: 250px;
+      margin-bottom: 50px; }
+      .choose-us-row .clear-padding .wow .choose-us-item .choose-icon {
+        width: 60px;
+        height: 60px;
+        background: blue;
+        position: absolute;
+        top: -90px;
+        left: -5%;
+        border-radius: 10px; }
+        .choose-us-row .clear-padding .wow .choose-us-item .choose-icon i {
+          font-size: 30px;
+          padding: 12px 0px; }
+      .choose-us-row .clear-padding .wow .choose-us-item h4 {
+        font-size: 20px;
+        margin-top: 0px;
+        line-height: 20px;
+        position: absolute;
+        top: -30px;
+        left: 10%;
+        text-align: left; }
+      .choose-us-row .clear-padding .wow .choose-us-item p {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left; }
+      .choose-us-row .clear-padding .wow .choose-us-item a {
+        font-size: 16px;
+        padding: 10px 10px;
+        line-height: 40px; }
+
   /*hot-deals*/
-  /*footer*/ }
+  /*footer*/
+  footer {
+    width: 100%; }
+    footer .sub {
+      display: none; }
+      footer .sub form.wpcf7-form .main-footer-sub .clear-padding .social-media {
+        margin-top: 50px; }
+    footer .main-footer .clear-padding #text-3 {
+      margin-top: 10px; }
+      footer .main-footer .clear-padding #text-3 h4 {
+        margin-left: 0%; }
+      footer .main-footer .clear-padding #text-3 .textwidget ul li a {
+        margin-left: -10%; }
+    footer .main-footer .clear-padding #text-4 .textwidget ul li a {
+      margin-left: -10%; }
+    footer .main-footer .clear-padding #text-5 h4 {
+      margin-left: 0%; }
+    footer .main-footer .clear-padding #text-5 .textwidget {
+      margin-left: 1%; } }
 @media (max-width: 320px) {
   /* Header*/
   /* Phe*/
@@ -49,7 +510,20 @@
   /* Haem*/
   /*Recent-blog-posts*/
   /*why-choose-us*/
+  .choose-us-row {
+    width: 100%;
+    background: yellow; }
+    .choose-us-row .clear-padding .wow {
+      margin-top: 0px;
+      border-radius: 5px;
+      height: 250px;
+      margin-bottom: 20px; }
+      .choose-us-row .clear-padding .wow .choose-us-item .choose-icon {
+        display: none; }
+
   /*hot-deals*/
-  /*footer*/ }
+  /*footer*/
+  footer {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
