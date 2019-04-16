@@ -2,114 +2,93 @@
 /* Phe*/
 /* how-it-word*/
 /* Haem*/
-.devlok {
-    .product-wrapper {
-        padding: 15px;
-        text-align: center;
-
-        .tooltip-right {
-            h5 {
-                color: #70dde5;
-            }
-
-            .clearfix {
-                border-bottom: 15px solid transparent;
-                border-left: 15px solid #fff;
-                border-top: 15px solid transparent;
-                content: "";
-                height: 0;
-                position: absolute;
-                right: -1.9rem;
-                top: 39%;
-                width: 0;
-                z-index: 2;
-            }
-
-            .clearfixx {
-                border-bottom: 15px solid transparent;
-                border-right: 15px solid #fff;
-                border-top: 15px solid transparent;
-                content: "";
-                height: 0;
-                position: absolute;
-                left: -1.85rem;
-                top: 45%;
-                width: 0;
-                z-index: 2;
-
-            }
-
-            .pull-left {
-                float: left;
-            }
-
-            .pricing-info {
-                .pull-left {
-                    margin-left: 0;
-
-                    span {
-                        color: red;
-                        font-weight: bold;
-                        padding-top: 5px;
-                    }
-                }
-            }
-        }
-    }
-
-    .overlay {
-        color: white;
-        width: 20rem;
-        background: #00000061;
-        position: absolute;
-        top: 11rem;
-        left: 11rem;
-
-        h5 {
-            color: #70dde5;
-        }
-
-        .pull-left {
-
-            float: left;
-            padding-left: 10px;
-            padding-bottom: 15px;
-
-            span.a {
-                color: red;
-                font-weight: bold;
-                padding-top: 5px;
-            }
-        }
-
-        .pull-right {
-            padding-bottom: 15px;
-        }
-    }
-}
-
-.top-destination {
-    .row {
-
-        .overlay {
-            width: 95%;
-            height: 95%;
-            background: #00000033;
-            position: absolute;
-            top: 25px;
-
-            .wrapper {
-                width: 50%;
-                position: absolute;
-                top: 9rem;
-                left: 7rem;
-            }
-        }
-
-    }
-}
-
 /*Recent-blog-posts*/
+.post-pic{
+ margin: 0 15px;
+box-shadow: 0 1px 2px rgba(43,59,93,0.30);
+margin-bottom:2em;
+.post-img{
+    overflow: hidden;
+    img{
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    transition: all 1s ease-in-out 0s;
+    }
+}
+    &:hover .post-img img{
+    transform: scale(1.08);
+    }
+    .post-content{
+    background: #fff;
+    padding: 20px;
+    }
+    .post-title{
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 0;
+    text-transform: capitalize;
+    a{
+    display: inline-block;
+    color: #808080;
+    transition: all 0.3s ease 0s;
+    &:hover{
+     color: #3d3030;
+    text-decoration: none;
+    }
+    }
+    }
+    .post-text{
+    font-size: 15px;
+    color: #676767;
+    line-height: 24px;
+    margin-bottom: 14px;
+    }
+    .post-icon{
+    padding: 0;
+    margin-bottom: 15px;
+    list-style: none;
+     li{
+    color: #676767;
+    padding: 2px 0;
+    i {
+    margin-right: 5px;
+    }
+
+    a{
+    display: inline-block;
+    font-size: 12px;
+    color: #808080;
+    transition: all 0.3s ease 0s;
+    &:after{
+     content: ",";
+    }
+    &:last-child:after{
+    content: "";
+    }
+    &:hover{
+    color: #3d3030;
+    text-decoration: none;
+    }
+    }
+    }
+    }
+    .read-more{
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: #FF0000;
+    border-bottom-right-radius: 10px;
+    text-transform: capitalize;
+    transition: all 0.30s linear;
+    &:hover{
+    background: #00FF00;
+    text-decoration: none;
+    }
+    }
+}
 /*why-choose-us*/
 /*hot-deals*/
 /*footer*/
@@ -119,14 +98,7 @@
     /* Phe*/
     /* how-it-word*/
     /* Haem*/
-    .devlok {
-        .overlay {
-            position: absolute;
-            top: 7rem;
-            left: 6rem;
-
-        }
-    }
+    
 
 
     /*Recent-blog-posts*/
@@ -141,40 +113,10 @@
     /* Phe*/
     /* how-it-word*/
     /* Haem*/
-    .devlok {
-        .overlay {
-            position: absolute;
-            left: 2rem;
-            top: 1rem;
-            background: none;
-            color: black;
+   
 
+        
 
-        }
-
-        .aaaa {
-            margin-left: 23rem;
-        }
-    }
-	.top-destination {
-        .row {
-            .overlay {
-                width: 92%;
-                height: 92%;
-                background: #00000033;
-                position: absolute;
-                top: 25px;
-
-                .wrapper {
-                    width: 80%;
-                    position: absolute;
-                    top: 2rem;
-                    left: 2rem;
-                }
-            }
-
-        }
-    }
     /*Recent-blog-posts*/
     /*why-choose-us*/
     /*hot-deals*/
@@ -186,41 +128,8 @@
     /* Phe*/
     /* how-it-word*/
     /* Haem*/
-	.devlok {
-        .overlay {
-            position: absolute;
-            left: 1rem;
-            top: 1rem;
-            background: none;
-            color: black;
-
-
-        }
-
-        .aaaa {
-            margin-top: 20rem;
-            margin-left: 0;
-        }
-    }
-	.top-destination {
-        .row {
-            .overlay {
-                width: 92%;
-                height: 92%;
-                background: #00000033;
-                position: absolute;
-                top: 25px;
-
-                .wrapper {
-                    width: 100%;
-                    position: absolute;
-                    top: 0rem;
-                    left: 0rem;
-                }
-            }
-
-        }
-    }
+	
+    
     /*Recent-blog-posts*/
     /*why-choose-us*/
     /*hot-deals*/
@@ -233,41 +142,7 @@
     /* Phe*/
     /* how-it-word*/
     /* Haem*/
-    .devlok {
-        .overlay {
-            position: absolute;
-            left: 1rem;
-            top: 1rem;
-            background: none;
-            color: black;
-
-
-        }
-
-        .aaaa {
-            margin-top: 20rem;
-            margin-left: 0;
-        }
-    }
-	.top-destination {
-        .row {
-            .overlay {
-                width: 92%;
-                height: 92%;
-                background: #00000033;
-                position: absolute;
-                top: 25px;
-
-                .wrapper {
-                    width: 100%;
-                    position: absolute;
-                    top: 0rem;
-                    left: 0rem;
-                }
-            }
-
-        }
-    }
+    
     /*Recent-blog-posts*/
     /*why-choose-us*/
     /*hot-deals*/
@@ -280,21 +155,6 @@
     /* Phe*/
     /* how-it-word*/
     /* Haem*/
-    .devlok {
-        .overlay {
-            position: absolute;
-            left: 1rem;
-            top: 1rem;
-            background: none;
-            color: black;
-
-        }
-
-        .aaaa {
-            margin-top: 20rem;
-            margin-left: 0;
-        }
-    }
 
     /*Recent-blog-posts*/
     /*why-choose-us*/
