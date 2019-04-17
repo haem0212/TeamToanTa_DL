@@ -38,10 +38,10 @@
         font-weight: 800;
         text-transform: uppercase;
         color: #f9676b;
-        padding-left: 15px; }
+        padding-left: 45px; }
       .full-width-search .search-section .tab-content .search-col-padding {
         padding-top: 15px;
-        padding-left: 15px; }
+        padding-left: 45px; }
         .full-width-search .search-section .tab-content .search-col-padding label {
           font-size: 12px;
           font-weight: 600;
@@ -71,7 +71,7 @@
           .full-width-search .search-section .tab-content .search-col-padding .form-control::-o-input-placeholder {
             color: #BEC4C8; }
         .full-width-search .search-section .tab-content .search-col-padding .input-group > .form-control {
-          flex: 0.9; }
+          flex: 0.88; }
         .full-width-search .search-section .tab-content .search-col-padding .input-group-addon {
           background: transparent;
           color: #BEC4C8;
