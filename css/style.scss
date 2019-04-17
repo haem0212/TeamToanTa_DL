@@ -174,7 +174,7 @@ margin-bottom:2em;
     text-transform: capitalize;
     a{
     display: inline-block;
-    color: #808080;
+    color: black;
     transition: all 0.3s ease 0s;
     &:hover{
      color: #3d3030;
@@ -232,6 +232,14 @@ margin-bottom:2em;
     text-decoration: none;
     }
     }
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+    background: #dc005a;
+    opacity: 1;
+}
+.owl-theme .owl-controls .owl-page span {
+    background: #fff;
+    border: 2px solid #37a6a4;
 }
 /*why-choose-us*/
 /*hot-deals*/
