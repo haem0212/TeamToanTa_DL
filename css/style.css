@@ -14,6 +14,7 @@ Error: Invalid CSS after "": expected selector, was "<<<<<<< HEAD"
 44:   background-size: cover;
 45:     .search-section {
 
+<<<<<<< HEAD
 Backtrace:
 D:\PTTK & THHDT\TeamToanTa_DL\css\style.scss:40
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
@@ -54,3 +55,63 @@ body:before {
   white-space: pre;
   font-family: monospace;
   content: "Error: Invalid CSS after \"\": expected selector, was \"<<<<<<< HEAD\"\A         on line 40 of D:\PTTK & THHDT\TeamToanTa_DL\css\style.scss\A \A 35: .menu img.logo {\A 36:     width: 200px;\A 37:     height: 70px;\A 38: }\A 39: /* Phe*/\A 40: <<<<<<< HEAD\A 41: .full-width-search{\A 42:   background-image: url('../images/slide18.jpg');\A 43:   background-repeat: no-repeat;\A 44:   background-size: cover;\A 45:     .search-section {"; }
+=======
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+  background: #dc005a;
+  opacity: 1; }
+
+.owl-theme .owl-controls .owl-page span {
+  background: #fff;
+  border: 2px solid #37a6a4; }
+
+/*why-choose-us*/
+/*hot-deals*/
+/*footer*/
+@media (max-width: 1024px) {
+  /* Header*/
+  /* Phe*/
+  /* how-it-word*/
+  /* Haem*/
+  /*Recent-blog-posts*/
+  /*why-choose-us*/
+  /*hot-deals*/
+  /*footer*/ }
+@media (max-width: 768px) {
+  /* Header*/
+  /* Phe*/
+  /* how-it-word*/
+  /* Haem*/
+  /*Recent-blog-posts*/
+  /*why-choose-us*/
+  /*hot-deals*/
+  /*footer*/ }
+@media (max-width: 677px) {
+  /* Header*/
+  /* Phe*/
+  /* how-it-word*/
+  /* Haem*/
+  /*Recent-blog-posts*/
+  /*why-choose-us*/
+  /*hot-deals*/
+  /*footer*/ }
+@media (max-width: 480px) {
+  /* Header*/
+  /* Phe*/
+  /* how-it-word*/
+  /* Haem*/
+  /*Recent-blog-posts*/
+  /*why-choose-us*/
+  /*hot-deals*/
+  /*footer*/ }
+@media (max-width: 320px) {
+  /* Header*/
+  /* Phe*/
+  /* how-it-word*/
+  /* Haem*/
+  /*Recent-blog-posts*/
+  /*why-choose-us*/
+  /*hot-deals*/
+  /*footer*/ }
+
+/*# sourceMappingURL=style.css.map */
+>>>>>>> 6da75775f8981ecb9c66f7e2a5f07444e8161d03
