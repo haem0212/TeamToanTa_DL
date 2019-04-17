@@ -233,6 +233,14 @@ margin-bottom:2em;
     }
     }
 }
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+    background: #dc005a;
+    opacity: 1;
+}
+.owl-theme .owl-controls .owl-page span {
+    background: #fff;
+    border: 2px solid #37a6a4;
+}
 /*why-choose-us*/
 /*hot-deals*/
 /*footer*/
