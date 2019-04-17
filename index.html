@@ -23,8 +23,450 @@
 
 <body>
     <div class="container-fluid TeamToanTa">
+        <section Name="Khanh-header">
 
-       
+        </section>  
+        <section Name="Phe">
+            <div class="container-fluid full-width-search">
+              <div class="row justify-content-center">
+                <div class="col-lg-10 search-section">
+                  <div role="tabpanel">
+                    <ul class="nav nav-tabs search-top" role="tablist" id="searchTab">
+                      <li role="presentation" class="text-center active">
+                        <a href="#flight" aria-controls="flight" role="tab" data-toggle="tab" aria-expanded="true">
+                          <i class="fa fa-plane"></i> 
+                          <span>FLIGHTS</span>
+                        </a>
+                      </li>
+                      <li role="presentation" class="text-center">
+                        <a href="#hotel" aria-controls="hotel" role="tab" data-toggle="tab" aria-expanded="false">
+                          <i class="fa fa-bed"></i> 
+                          <span>HOTELS</span>
+                        </a>
+                      </li>
+                      <li role="presentation" class="text-center">
+                        <a href="#holiday" aria-controls="holiday" role="tab" data-toggle="tab" aria-expanded="false">
+                          <i class="fa fa-suitcase"></i>
+                          <span>HOLIDAYS</span>
+                        </a>
+                      </li>
+                      <li role="presentation" class="text-center">
+                        <a href="#cruise" aria-controls="cruise" role="tab" data-toggle="tab" aria-expanded="false">
+                          <i class="fa fa-ship"></i>
+                          <span>CRUISE</span>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="tab-content">
+                      <div role="tabpanel" class="tab-pane active" id="flight">
+                        <form action="" method="post" class="form-row">
+                          <div class="col-md-12 product-search-title">Book Flight Tickets</div>
+                          <div class="col-md-12 search-col-padding">
+                            <label class="radio-inline">
+                              <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="One Way"> One Way
+                            </label>
+                            <label class="radio-inline">
+                              <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Round Trip"> Round Trip
+                            </label>
+                          </div>
+                          <div class="col-md-6 col-sm-6 search-col-padding">
+                            <label>Leaving From</label>
+                            <div class="input-group">
+                              <select class="selectpicker bs-select-hidden " name="departure_city">
+                                <option value="">Select a place</option>
+                                <option value="London (LHR), United Kingdom (UK)">London (LHR), United Kingdom (UK)</option>
+                                <option value="New Delhi (DEL), India (IN)">New Delhi (DEL), India (IN)</option>
+                              </select>
+                              <span class="input-group-addon"><i class="fa fa-map-marker fa-fw"></i></span>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-sm-6 search-col-padding ">
+                            <label>Leaving To</label>
+                            <div class="input-group">
+                              <select class="selectpicker bs-select-hidden" name="destination_city">
+                                <option value="">Select a place</option>
+                                <option value="London (LHR), United Kingdom (UK)">London (LHR), United Kingdom (UK)</option>
+                                <option value="New Delhi (DEL), India (IN)">New Delhi (DEL), India (IN)</option>
+                              </select>
+                              <span class="input-group-addon"><i class="fa fa-map-marker fa-fw"></i></span>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-sm-6 search-col-padding">
+                            <label>Departure</label>
+                            <div class="input-group">
+                              <input type="text" id="departure_date" name="departure_date" class="form-control hasDatepicker" placeholder="DD/MM/YYYY">
+                              <span class="input-group-addon"><i class="fa fa-calendar fa-fw"></i></span>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-sm-6 search-col-padding ">
+                            <label>Return</label>
+                            <div class="input-group">
+                              <input type="text" id="return_date" class="form-control hasDatepicker" name="return_date" placeholder="DD/MM/YYYY">
+                              <span class="input-group-addon"><i class="fa fa-calendar fa-fw"></i></span>
+                            </div>
+                          </div>
+                          <div class="col-md-4 col-sm-4 search-col-padding">
+                            <label>Adult</label><br>
+                            <span class="ui-spinner ui-widget ui-widget-content ui-corner-all">
+                              <input id="adult_count" name="adult_count" value="1" class="form-control quantity-padding ui-spinner-input" aria-valuemin="1" aria-valuenow="1" autocomplete="off" role="spinbutton">
+                              <a class="ui-spinner-button ui-spinner-up ui-corner-tr ui-button ui-widget ui-state-default ui-button-text-only" tabindex="-1" role="button">
+                                <span class="ui-button-text">
+                                  <span class="ui-icon ui-icon-triangle-1-n">
+                                    <i class="fa fa-plus"></i>
+                                  </span>
+                                </span>
+                              </a>
+                              <a class="ui-spinner-button ui-spinner-down ui-corner-br ui-button ui-widget ui-state-default ui-button-text-only" tabindex="-1" role="button">
+                                <span class="ui-button-text">
+                                  <span class="ui-icon ui-icon-triangle-1-s">
+                                    <i class="fa fa-minus"></i>
+                                  </span>
+                                </span>
+                              </a>
+                            </span>
+                          </div>
+                          <div class="col-md-4 col-sm-4 search-col-padding">
+                            <label>Child</label><br>
+                            <span class="ui-spinner ui-widget ui-widget-content ui-corner-all">
+                              <input type="text" id="child_count" name="child_count" value="1" class="form-control quantity-padding ui-spinner-input" aria-valuemin="1" aria-valuenow="1" autocomplete="off" role="spinbutton">
+                              <a class="ui-spinner-button ui-spinner-up ui-corner-tr ui-button ui-widget ui-state-default ui-button-text-only" tabindex="-1" role="button">
+                                <span class="ui-button-text">
+                                  <span class="ui-icon ui-icon-triangle-1-n">
+                                    <i class="fa fa-plus"></i>
+                                  </span>
+                                </span>
+                              </a>
+                              <a class="ui-spinner-button ui-spinner-down ui-corner-br ui-button ui-widget ui-state-default ui-button-text-only" tabindex="-1" role="button">
+                                <span class="ui-button-text">
+                                  <span class="ui-icon ui-icon-triangle-1-s">
+                                    <i class="fa fa-minus"></i>
+                                  </span>
+                                </span>
+                              </a>
+                            </span>
+                          </div>
+                          <div class="col-md-4 col-sm-4 search-col-padding">
+                            <label>Class</label><br>
+                            <select class="selectpicker bs-select-hidden " name="flight_class">
+                              <option value="business">Business</option>
+                              <option value="economy">Economy</option>
+                            </select>
+                          </div>
+                          <div class="col-md-12 search-col-padding">
+                            <button type="submit" class="search-button btn transition-effect">Search Flights</button>
+                          </div>
+                        </form>
+                      </div>
+                      <div role="tabpanel" class="tab-pane" id="hotel">
+                        <form action="" method="post" class="form-row">
+                          <div class="col-md-12 product-search-title">Book Hotel Rooms</div>
+                          <div class="col-md-12 search-col-padding">
+                            <label>I Want To Go</label>
+                            <div class="input-group">
+                              <select class="selectpicker bs-select-hidden" name="destination-address">
+                                <option value="">Select a place</option>
+                                <option value="Main Road, Manali">Main Road, Manali</option>
+                              </select>
+                              <span class="input-group-addon"><i class="fa fa-map-marker fa-fw"></i></span>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-sm-6 search-col-padding">
+                            <label>Check - In</label>
+                            <div class="input-group">
+                              <input type="text" name="check-in" id="check_in" class="form-control hasDatepicker" placeholder="DD/MM/YYYY">
+                              <span class="input-group-addon"><i class="fa fa-calendar fa-fw"></i></span>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-sm-6 search-col-padding">
+                            <label>Check - Out</label>
+                            <div class="input-group">
+                              <input type="text" name="check-out" id="check_out" class="form-control hasDatepicker" placeholder="DD/MM/YYYY">
+                              <span class="input-group-addon"><i class="fa fa-calendar fa-fw"></i></span>
+                            </div>
+                          </div>               
+                          <div class="col-md-3 col-sm-3 search-col-padding">
+                            <label>Adult</label><br>
+                            <span class="ui-spinner ui-widget ui-widget-content ui-corner-all"><input id="hotel_adult_count" name="adult_count" value="1" class="form-control quantity-padding ui-spinner-input" aria-valuemin="1" aria-valuenow="1" autocomplete="off" role="spinbutton"><a class="ui-spinner-button ui-spinner-up ui-corner-tr ui-button ui-widget ui-state-default ui-button-text-only" tabindex="-1" role="button"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-n"><i class="fa fa-plus"></i></span></span></a><a class="ui-spinner-button ui-spinner-down ui-corner-br ui-button ui-widget ui-state-default ui-button-text-only" tabindex="-1" role="button"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-s"><i class="fa fa-minus"></i></span></span></a></span>
+                          </div>
+                          <div class="col-md-3 col-sm-3 search-col-padding">
+                            <label>Child</label><br>
+                            <span class="ui-spinner ui-widget ui-widget-content ui-corner-all"><input type="text" id="hotel_child_count" name="child_count" value="1" class="form-control quantity-padding ui-spinner-input" aria-valuemin="1" aria-valuenow="2" autocomplete="off" role="spinbutton"><a class="ui-spinner-button ui-spinner-up ui-corner-tr ui-button ui-widget ui-state-default ui-button-text-only" tabindex="-1" role="button"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-n"><i class="fa fa-plus"></i></span></span></a><a class="ui-spinner-button ui-spinner-down ui-corner-br ui-button ui-widget ui-state-default ui-button-text-only" tabindex="-1" role="button"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-s"><i class="fa fa-minus"></i></span></span></a></span>
+                          </div>
+                          <div class="col-md-3 col-sm-3 search-col-padding">
+                            <label>Rooms</label><br>
+                            <select class="selectpicker bs-select-hidden" name="rooms">
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                            </select>
+                          </div>
+                          <div class="col-md-3 col-sm-3 search-col-padding">
+                            <label>Nights</label><br>
+                            <select class="selectpicker bs-select-hidden" name="nights">
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                            </select>           
+                          </div>
+                          <div class="col-md-12 search-col-padding">
+                            <button type="submit" class="search-button btn transition-effect">Search Hotels</button>
+                          </div>
+                        </form>
+                      </div>
+                      <div role="tabpanel" class="tab-pane" id="holiday">
+                        <form action="" method="post" class="form-row">
+                          <div class="col-md-12 product-search-title">Book Holiday Packages</div>
+                          <div class="col-md-6 col-sm-6 search-col-padding">
+                            <label>From</label>
+                            <div class="input-group">
+                              <select class="selectpicker bs-select-hidden" name="pack-departure-city">
+                                <option value="">Select a place</option>
+                                <option value="New York">New York</option>
+                                <option value="Bangkok">Bangkok</option>
+                              </select>
+                              <span class="input-group-addon"><i class="fa fa-map-marker fa-fw"></i></span>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-sm-6 search-col-padding">
+                            <label>I Want To Go</label>
+                            <div class="input-group">
+                              <select class="selectpicker bs-select-hidden" name="pack-destination-city">
+                                <option value="">Select a place</option>
+                                <option value="Bangkok">Bangkok</option>
+                                <option value="New York">New York</option>
+                              </select>
+                              <span class="input-group-addon"><i class="fa fa-map-marker fa-fw"></i></span>
+                            </div>
+                          </div>                  
+                          <div class="col-md-6 col-sm-6 search-col-padding">
+                            <label>Starting From</label>
+                            <div class="input-group">
+                              <input type="text" id="package_start" class="form-control hasDatepicker" placeholder="DD/MM/YYYY">
+                              <span class="input-group-addon"><i class="fa fa-calendar fa-fw"></i></span>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-sm-6 search-col-padding">
+                            <label>Duration(Optional)</label><br>
+                            <select class="selectpicker bs-select-hidden" name="holiday_duration">
+                              <option value="3 days">3 Days</option>
+                              <option value="5 days">5 Days</option>
+                              <option value="1 week">1 Week</option>
+                              <option value="2 weeks">2 Weeks</option>
+                              <option value="1 month">1 Month</option>
+                              <option value="2 month">2 Month</option>
+                            </select>
+                          </div>                 
+                          <div class="col-md-6 col-sm-6 search-col-padding">
+                            <label>Package Type(Optional)</label><br>
+                            <select class="selectpicker bs-select-hidden" name="package_type">
+                              <option value="group">Group</option>
+                              <option value="family">Family</option>
+                              <option value="individual">Individual</option>
+                              <option value="honeymoon">Honeymoon</option>
+                            </select>
+                          </div>
+                          <div class="col-md-6 col-sm-6 search-col-padding">
+                            <label>Budget(Optional)</label><br>
+                            <select class="selectpicker bs-select-hidden" name="package_budget">
+                              <option value="500">500</option>
+                              <option value="1000">1000</option>
+                              <option value="1500">1000+</option>
+                            </select>
+                          </div>               
+                          <div class="col-md-12 search-col-padding">
+                            <button type="submit" class="search-button btn transition-effect">Search Packages</button>
+                          </div> 
+                        </form>
+                      </div>
+                      <div role="tabpanel" class="tab-pane" id="cruise">
+                        <form action="" method="post" class="form-row">
+                          <div class="col-md-12 product-search-title">Cruise Holidays</div>
+                          <div class="col-md-6 col-sm-6 search-col-padding">
+                            <label>From</label>
+                            <div class="input-group">
+                              <select class="selectpicker bs-select-hidden" name="cruise-departure">
+                                <option value="">Select a place</option>
+                                <option value="Miami">Miami</option>
+                                <option value="Florida">Florida</option>
+                              </select>
+                              <span class="input-group-addon"><i class="fa fa-map-marker fa-fw"></i></span>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-sm-6 search-col-padding">
+                            <label>I Want To Go</label>
+                            <div class="input-group">
+                              <select class="selectpicker bs-select-hidden" name="cruise-destination">
+                                <option value="">Select a place</option>
+                                <option value="Florida">Florida</option>
+                                <option value="Miami">Miami</option>
+                              </select>
+                              <span class="input-group-addon"><i class="fa fa-map-marker fa-fw"></i></span>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-sm-6 search-col-padding">
+                            <label>Starting From</label>
+                            <div class="input-group">
+                              <input type="text" id="cruise_start" class="form-control hasDatepicker" placeholder="DD/MM/YYYY">
+                              <span class="input-group-addon"><i class="fa fa-calendar fa-fw"></i></span>
+                            </div>
+                          </div>
+                          <div class="col-md-6 col-sm-6 search-col-padding">
+                            <label>Duration(Optional)</label><br>
+                            <select class="selectpicker bs-select-hidden" name="cruise_duration">
+                              <option value="3 days">3 Days</option>
+                              <option value="5 days">5 Days</option>
+                              <option value="1 week">1 Week</option>
+                              <option value="2 weeks">2 Weeks</option>
+                              <option value="1 month">1 Month</option>
+                              <option value="2 month">2 Month</option>
+                            </select>
+                          </div>
+                          <div class="col-md-6 col-sm-6 search-col-padding">
+                            <label>Package Type(Optional)</label><br>
+                            <select class="selectpicker bs-select-hidden" name="cruise_type">
+                              <option value="group">Group</option>
+                              <option value="family">Family</option>
+                              <option value="individual">Individual</option>
+                              <option value="honeymoon">Honeymoon</option>
+                            </select>
+                          </div>
+                          <div class="col-md-6 col-sm-6 search-col-padding">
+                            <label>Budget(Optional)</label><br>
+                            <select class="selectpicker bs-select-hidden" name="cruise_budget">
+                              <option value="500">500</option>
+                              <option value="1000">1000</option>
+                              <option value="1500">1500</option>
+                            </select>
+                          </div>
+                          <div class="col-md-12 search-col-padding">
+                            <button type="submit" class="search-button btn transition-effect">Search Cruises</button>
+                          </div>             
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <section Name="Khanh-how-it-word">
+
+        </section>
+        <section name="HaEm">
+
+        </section> 
+        <section name="Tung-recent-blog-post">
+            <div class="container">
+                <h3 class="h3 text-center">RECENT BLOG POST</h3>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="news-slider2" class="owl-carousel">
+                            <div class="post-pic">
+                                <div class="post-img">
+                                    <a href="#"><img src="images/tour2.jpg" alt=""></a>
+                                </div>
+                                <div class="post-content">
+                                <h3 class="post-title"><a href="#">Latest News Post</a></h3>
+                                <p class="post-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec elementum mauris. Praesent vehicula gravida dolor, ac efficitur sem sagittis.
+                                </p>
+                            <ul class="post-icon">
+                                <li><i class="fa fa-calendar"></i> June 5, 2016</li>
+                                <li>
+                                <i class="fa fa-folder"></i>
+                                <a href="#">Mockup</a>
+                                <a href="#">Graphics</a>
+                                <a href="#">Flayers</a>
+                                </li>
+                            </ul>
+                                <a href="#" class="read-more">read more</a>
+                                </div>
+                            </div>
+                            <div class="post-pic">
+                                <div class="post-img">
+                                    <a href="#"><img src="images/tour2.jpg" alt=""></a>
+                                </div>
+                                <div class="post-content">
+                                    <h3 class="post-title"><a href="#">Latest News Post</a></h3>
+                                <p class="post-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec elementum mauris. Praesent vehicula gravida dolor, ac efficitur sem sagittis.
+                                </p>
+                                <ul class="post-icon">
+                                    <li><i class="fa fa-calendar"></i> June 7, 2016</li>
+                                    <li>
+                                    <i class="fa fa-folder"></i>
+                                    <a href="#">Mockup</a>
+                                    <a href="#">Graphics</a>
+                                    <a href="#">Flayers</a>
+                                    </li>
+                                </ul>
+                                    <a href="#" class="read-more">read more</a>
+                                </div>
+                            </div>
+                            <div class="post-pic">
+                                <div class="post-img">
+                                    <a href="#"><img src="images/tour2.jpg" alt=""></a>
+                                </div>
+                                <div class="post-content">
+                                    <h3 class="post-title"><a href="#">Latest News Post</a></h3>
+                                <p class="post-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec elementum mauris. Praesent vehicula gravida dolor, ac efficitur sem sagittis.
+                                </p>
+                                <ul class="post-icon">
+                                    <li><i class="fa fa-calendar"></i> June 5, 2016</li>
+                                    <li>
+                                    <i class="fa fa-folder"></i>
+                                    <a href="#">Mockup</a>
+                                    <a href="#">Graphics</a>
+                                    <a href="#">Flayers</a>
+                                    </li>
+                                </ul>
+                                    <a href="#" class="read-more">read more</a>
+                                </div>
+                            </div>
+                            <div class="post-pic">
+                                <div class="post-img">
+                                    <a href="#"><img src="images/tour2.jpg" alt=""></a>
+                                </div>
+                                <div class="post-content">
+                                    <h3 class="post-title"><a href="#">Latest News Post</a></h3>
+                                <p class="post-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec elementum mauris. Praesent vehicula gravida dolor, ac efficitur sem sagittis.
+                                </p>
+                                <ul class="post-icon">
+                                    <li><i class="fa fa-calendar"></i> June 5, 2016</li>
+                                    <li>
+                                    <i class="fa fa-folder"></i>
+                                    <a href="#">Mockup</a>
+                                    <a href="#">Graphics</a>
+                                    <a href="#">Flayers</a>
+                                    </li>
+                                </ul>
+                                    <a href="#" class="read-more">read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section name="Linh-why-choose-us">
+
+        </section>
+        <section name="Tung-hot-deals">
+
+        </section>
+        <section name="Linh-footer">
+          
+        </section> 
+        
     </div>
 </body>
 

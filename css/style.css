@@ -1,61 +1,195 @@
-/*
-Error: Invalid CSS after "": expected selector, was "<<<<<<< HEAD"
-        on line 40 of D:\PTTK & THHDT\TeamToanTa_DL\css\style.scss
+/* Header*/
+/* Phe*/
+.full-width-search {
+  background-image: url("../images/slide18.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .full-width-search .search-section {
+    margin-top: 60px;
+    margin-bottom: 60px; }
+    .full-width-search .search-section .nav-tabs {
+      border-bottom: none; }
+      .full-width-search .search-section .nav-tabs > li > a {
+        color: #ffffff;
+        background: rgba(10, 49, 82, 0.5);
+        font-weight: bold;
+        border-radius: 2px 2px 0 0;
+        margin-right: 4px;
+        padding: 15px; }
+        .full-width-search .search-section .nav-tabs > li > a:hover {
+          color: #ffffff;
+          background: #f9676b;
+          border: 1px solid transparent;
+          text-decoration: none; }
+      .full-width-search .search-section .nav-tabs > li.active > a, .full-width-search .search-section .nav-tabs > li.active > a:focus, .full-width-search .search-section .nav-tabs li.active > a:hover {
+        color: #ffffff;
+        background: #f9676b;
+        border: 1px solid transparent; }
+      .full-width-search .search-section .nav-tabs .fa-plane {
+        transform: rotate(-45deg) translate(20%, 0%); }
+    .full-width-search .search-section .tab-content {
+      color: #07253F;
+      background: #fff;
+      padding: 30px 15px;
+      margin-top: 14px; }
+      .full-width-search .search-section .tab-content .product-search-title {
+        font-size: 18px;
+        display: block;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: #f9676b;
+        padding-left: 45px; }
+      .full-width-search .search-section .tab-content .search-col-padding {
+        padding-top: 15px;
+        padding-left: 45px; }
+        .full-width-search .search-section .tab-content .search-col-padding label {
+          font-size: 12px;
+          font-weight: 600;
+          text-transform: uppercase; }
+          .full-width-search .search-section .tab-content .search-col-padding label.radio-inline {
+            margin-right: 10px; }
+        .full-width-search .search-section .tab-content .search-col-padding .form-control {
+          background-color: transparent;
+          border: 1px solid #BEC4C8;
+          border-radius: 0;
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+          color: #07253F;
+          display: block;
+          font-size: 15px;
+          height: 40px;
+          line-height: 1.42857;
+          padding: 6px 12px;
+          transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+          width: 100%; }
+          .full-width-search .search-section .tab-content .search-col-padding .form-control::-moz-placeholder {
+            color: #989DA0;
+            opacity: 1; }
+          .full-width-search .search-section .tab-content .search-col-padding .form-control::-ms-input-placeholder {
+            color: #BEC4C8; }
+          .full-width-search .search-section .tab-content .search-col-padding .form-control::-webkit-input-placeholder {
+            color: #BEC4C8; }
+          .full-width-search .search-section .tab-content .search-col-padding .form-control::-o-input-placeholder {
+            color: #BEC4C8; }
+        .full-width-search .search-section .tab-content .search-col-padding .input-group > .form-control {
+          flex: 0.88; }
+        .full-width-search .search-section .tab-content .search-col-padding .input-group-addon {
+          background: transparent;
+          color: #BEC4C8;
+          border-top: 1px solid #BEC4C8;
+          border-right: 1px solid #BEC4C8;
+          border-bottom: 1px solid #BEC4C8;
+          border-radius: 0;
+          padding: 10px 12px;
+          font-size: 12px; }
+        .full-width-search .search-section .tab-content .search-col-padding .selectpicker {
+          width: 82%;
+          height: 40px; }
+        .full-width-search .search-section .tab-content .search-col-padding option {
+          color: #07253F; }
+        .full-width-search .search-section .tab-content .search-col-padding .ui-spinner-up i {
+          color: #BEC4C8;
+          float: right;
+          margin-top: -27px;
+          margin-right: 10px;
+          z-index: 99999; }
+        .full-width-search .search-section .tab-content .search-col-padding .ui-spinner-down i {
+          color: #BEC4C8;
+          float: left;
+          margin-top: -27px;
+          margin-left: 10px;
+          z-index: 99999; }
+        .full-width-search .search-section .tab-content .search-col-padding .quantity-padding {
+          padding-left: 40px !important; }
+        .full-width-search .search-section .tab-content .search-col-padding .search-button {
+          background: #f9676b;
+          border-radius: 0;
+          margin-top: 10px;
+          padding: 10px 30px;
+          font-size: 15px;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-weight: bold;
+          color: #fff;
+          transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease; }
+          .full-width-search .search-section .tab-content .search-col-padding .search-button:hover {
+            background: #00adef;
+            color: #fff; }
 
-35: .menu img.logo {
-36:     width: 200px;
-37:     height: 70px;
-38: }
-39: /* Phe*\/
-40: <<<<<<< HEAD
-41: .full-width-search{
-42:   background-image: url('../images/slide18.jpg');
-43:   background-repeat: no-repeat;
-44:   background-size: cover;
-45:     .search-section {
+/* how-it-word*/
+/* Haem*/
+/*Recent-blog-posts*/
+.post-pic {
+  margin: 0 15px;
+  box-shadow: 0 1px 2px rgba(43, 59, 93, 0.3);
+  margin-bottom: 2em; }
+  .post-pic .post-img {
+    overflow: hidden; }
+    .post-pic .post-img img {
+      width: 100%;
+      height: auto;
+      transform: scale(1);
+      transition: all 1s ease-in-out 0s; }
+  .post-pic:hover .post-img img {
+    transform: scale(1.08); }
+  .post-pic .post-content {
+    background: #fff;
+    padding: 20px; }
+  .post-pic .post-title {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 0;
+    text-transform: capitalize; }
+    .post-pic .post-title a {
+      display: inline-block;
+      color: #808080;
+      transition: all 0.3s ease 0s; }
+      .post-pic .post-title a:hover {
+        color: #3d3030;
+        text-decoration: none; }
+  .post-pic .post-text {
+    font-size: 15px;
+    color: #676767;
+    line-height: 24px;
+    margin-bottom: 14px; }
+  .post-pic .post-icon {
+    padding: 0;
+    margin-bottom: 15px;
+    list-style: none; }
+    .post-pic .post-icon li {
+      color: #676767;
+      padding: 2px 0; }
+      .post-pic .post-icon li i {
+        margin-right: 5px; }
+      .post-pic .post-icon li a {
+        display: inline-block;
+        font-size: 12px;
+        color: #808080;
+        transition: all 0.3s ease 0s; }
+        .post-pic .post-icon li a:after {
+          content: ","; }
+        .post-pic .post-icon li a:last-child:after {
+          content: ""; }
+        .post-pic .post-icon li a:hover {
+          color: #3d3030;
+          text-decoration: none; }
+  .post-pic .read-more {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: #FF0000;
+    border-bottom-right-radius: 10px;
+    text-transform: capitalize;
+    transition: all 0.30s linear; }
+    .post-pic .read-more:hover {
+      background: #00FF00;
+      text-decoration: none; }
 
-<<<<<<< HEAD
-Backtrace:
-D:\PTTK & THHDT\TeamToanTa_DL\css\style.scss:40
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1188:in `expr!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/static_parser.rb:20:in `parse_selector'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"\": expected selector, was \"<<<<<<< HEAD\"\A         on line 40 of D:\PTTK & THHDT\TeamToanTa_DL\css\style.scss\A \A 35: .menu img.logo {\A 36:     width: 200px;\A 37:     height: 70px;\A 38: }\A 39: /* Phe*/\A 40: <<<<<<< HEAD\A 41: .full-width-search{\A 42:   background-image: url('../images/slide18.jpg');\A 43:   background-repeat: no-repeat;\A 44:   background-size: cover;\A 45:     .search-section {"; }
-=======
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
   background: #dc005a;
   opacity: 1; }
@@ -114,4 +248,3 @@ body:before {
   /*footer*/ }
 
 /*# sourceMappingURL=style.css.map */
->>>>>>> 6da75775f8981ecb9c66f7e2a5f07444e8161d03
