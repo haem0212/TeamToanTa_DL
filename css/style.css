@@ -1,4 +1,29 @@
 /* Header*/
+.header-main .text p.tt {
+  float: left;
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-size: 14px;
+  padding: 0; }
+.header-main .search {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+  .header-main .search .form-control {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    height: 30px;
+    width: 50px; }
+  .header-main .search .fa {
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+    padding-top: 5px; }
+
+.menu img.logo {
+  width: 200px;
+  height: 70px; }
+
 /* Phe*/
 .full-width-search {
   background-image: url("../images/slide18.jpg");
@@ -120,6 +145,26 @@
             color: #fff; }
 
 /* how-it-word*/
+.title {
+  padding-top: 60px; }
+
+.inf-item {
+  margin-top: 50px; }
+  .inf-item .inf .item {
+    width: 80px;
+    height: 80px;
+    color: white;
+    background: #f25e5e;
+    border-radius: 50%;
+    padding-top: 22px; }
+  .inf-item .inf h3 {
+    padding-top: 30px; }
+
+ul.navbar-nav li {
+  margin-left: 20px;
+  font-size: 18px;
+  text-align: center; }
+
 /* Haem*/
 /*Recent-blog-posts*/
 .post-pic {
@@ -203,6 +248,15 @@
 /*footer*/
 @media (max-width: 1024px) {
   /* Header*/
+  .menu {
+    background-color: #d8d6d6; }
+
+  .none {
+    display: none; }
+
+  ul.navbar-nav li {
+    font-size: 14px; }
+
   /* Phe*/
   /* how-it-word*/
   /* Haem*/
@@ -212,8 +266,16 @@
   /*footer*/ }
 @media (max-width: 768px) {
   /* Header*/
+  .menu button {
+    position: absolute;
+    right: 10px;
+    top: 24px; }
+
   /* Phe*/
   /* how-it-word*/
+  title {
+    font-size: 28px; }
+
   /* Haem*/
   /*Recent-blog-posts*/
   /*why-choose-us*/
@@ -230,6 +292,14 @@
   /*footer*/ }
 @media (max-width: 480px) {
   /* Header*/
+  .menu .navbar-collapse {
+    width: 109.5%;
+    position: absolute;
+    top: 83px;
+    background: #d8d6d6bf;
+    left: -15px;
+    z-index: 2; }
+
   /* Phe*/
   /* how-it-word*/
   /* Haem*/
