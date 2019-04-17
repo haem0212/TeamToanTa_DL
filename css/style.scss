@@ -4,11 +4,11 @@
 /* Haem*/
 /*Recent-blog-posts*/
 /*why-choose-us*/
-.choose-us-row {
+.chooseus {
     margin: 0 auto;
     background: gray;
 
-    .clear-padding {
+    .why {
         margin: 0 auto;
 
         .light-section-title {
@@ -86,11 +86,17 @@
                     line-height: 60px;
                     text-decoration: none;
 
+                    &:hover {
+                        background: blue;
+                        color: black;
+                    }
+
                 }
+
             }
         }
 
-        &:hover {}
+
 
     }
 }
@@ -99,12 +105,10 @@
 /*footer*/
 footer {
     .sub {
-        .screen-reader-response {}
-
         margin-top: 40px;
 
         form {
-            &.wpcf7-form {
+            &.form1 {
                 margin: 0 auto;
 
                 .main-footer-sub {
@@ -116,7 +120,7 @@ footer {
 
 
 
-                    .clear-padding {
+                    .clear {
                         margin: 0 auto;
 
 
@@ -153,16 +157,19 @@ footer {
                                     height: 40px;
                                     position: absolute;
                                     top: 15px;
-                                    right: -86.5%;
+                                    right: -200%;
                                     font-size: 15px;
                                     border-radius: 0px;
                                     border: none;
                                     background: red;
                                     color: white;
 
-                                    &.ajax-loader {}
+                                    &:hover {
+                                        background: blue;
+                                        color: black;
+                                    }
 
-                                    span {}
+
                                 }
                             }
                         }
@@ -203,7 +210,7 @@ footer {
     .main-footer {
         margin-top: 40px;
 
-        .clear-padding {
+        .clear {
             margin: 0 auto;
             background: green;
             padding-bottom: 50px;
@@ -357,7 +364,8 @@ footer {
     }
 
     .main-footer-nav {
-    	background: gray;
+        background: gray;
+
         p {
             color: black;
             font-size: 15px;
@@ -416,7 +424,7 @@ footer {
     /* Haem*/
     /*Recent-blog-posts*/
     /*why-choose-us*/
-    .choose-us-row {
+    .chooseus {
         width: 100%;
     }
 
@@ -435,11 +443,11 @@ footer {
     /* Haem*/
     /*Recent-blog-posts*/
     /*why-choose-us*/
-    .choose-us-row {
+    .chooseus {
         width: 100%;
         background: pink;
 
-        .clear-padding {
+        .why {
             .light-section-title {
                 margin: 0 auto;
 
@@ -507,12 +515,8 @@ footer {
         width: 100%;
 
         .sub {
-            .screen-reader-response {}
-
-
-
             form {
-                &.wpcf7-form {
+                &.form1 {
 
 
                     .main-footer-sub {
@@ -520,7 +524,7 @@ footer {
 
 
 
-                        .clear-padding {
+                        .clear {
 
 
 
@@ -543,14 +547,12 @@ footer {
 
                                 .padding {
                                     input {
-                                        right: -148%;
+                                        right: -280%;
                                         height: 30px;
                                         font-size: 14px;
 
 
-                                        &.ajax-loader {}
 
-                                        span {}
                                     }
                                 }
                             }
@@ -584,7 +586,7 @@ footer {
 
         .main-footer {
 
-            .clear-padding {
+            .clear {
 
 
                 #text-2 {
@@ -726,11 +728,11 @@ footer {
     /* Haem*/
     /*Recent-blog-posts*/
     /*why-choose-us*/
-    .choose-us-row {
+    .chooseus {
         width: 100%;
         background: green;
 
-        .clear-padding {
+        .why {
             .light-section-title {
                 h2 {}
 
@@ -794,12 +796,12 @@ footer {
         width: 100%;
 
         .sub {
-            .screen-reader-response {}
+
 
 
 
             form {
-                &.wpcf7-form {
+                &.form1 {
 
 
                     .main-footer-sub {
@@ -807,7 +809,7 @@ footer {
 
 
 
-                        .clear-padding {
+                        .clear {
 
 
 
@@ -871,7 +873,7 @@ footer {
 
         .main-footer {
 
-            .clear-padding {
+            .clear {
 
 
                 #text-2 {
@@ -974,11 +976,11 @@ footer {
     /* Haem*/
     /*Recent-blog-posts*/
     /*why-choose-us*/
-    .choose-us-row {
+    .chooseus {
         width: 100%;
         background: red;
 
-        .clear-padding {
+        .why {
             .light-section-title {
                 h2 {}
 
@@ -1045,12 +1047,12 @@ footer {
         .sub {
             display: none;
 
-            .screen-reader-response {}
+
 
 
 
             form {
-                &.wpcf7-form {
+                &.form1 {
 
 
                     .main-footer-sub {
@@ -1058,7 +1060,7 @@ footer {
 
 
 
-                        .clear-padding {
+                        .clear {
 
 
 
@@ -1109,7 +1111,7 @@ footer {
 
         .main-footer {
 
-            .clear-padding {
+            .clear {
 
 
                 #text-2 {
@@ -1210,11 +1212,11 @@ footer {
     /* Haem*/
     /*Recent-blog-posts*/
     /*why-choose-us*/
-    .choose-us-row {
+    .chooseus {
         width: 100%;
         background: yellow;
 
-        .clear-padding {
+        .why {
             .light-section-title {
                 h2 {}
 
